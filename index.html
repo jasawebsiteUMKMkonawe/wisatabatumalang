@@ -25,7 +25,8 @@
     <meta name="twitter:description" content="Temukan destinasi wisata terbaik di Kota Batu dan Malang, Jawa Timur." />
     <link rel="icon" type="image/svg+xml"
         href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2313ec5b'/><text x='50' y='68' font-family='Arial' font-weight='bold' font-size='55' fill='%23102216' text-anchor='middle'>B</text></svg>" />
-    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2313ec5b'/><text x='50' y='68' font-family='Arial' font-weight='bold' font-size='55' fill='%23102216' text-anchor='middle'>B</text></svg>" />
+    <link rel="apple-touch-icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2313ec5b'/><text x='50' y='68' font-family='Arial' font-weight='bold' font-size='55' fill='%23102216' text-anchor='middle'>B</text></svg>" />
     <meta name="theme-color" content="#13ec5b" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -81,7 +82,9 @@
                             data-bs-toggle="dropdown" aria-expanded="false">Destinasi</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="destination.html">Semua Destinasi</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="destination-batu.html">🏔️ Destinasi Batu</a></li>
                             <li><a class="dropdown-item" href="destination-malang.html">🌆 Destinasi Malang</a></li>
                         </ul>
@@ -107,12 +110,14 @@
             <div class="wb-hero-overlay"></div>
         </div>
         <div class="wb-hero-content">
-            <h1>Jelajahi <span class="text-primary">Keindahan</span><br class="d-none d-md-block" /> Kota Batu & Malang</h1>
-            <p>Temukan pesona pegunungan, taman hiburan seru, dan kuliner khas di dataran tinggi Jawa Timur yang memukau.</p>
+            <h1>Jelajahi <span class="text-primary">Keindahan</span><br class="d-none d-md-block" /> Kota Batu & Malang
+            </h1>
+            <p>Temukan pesona pegunungan, taman hiburan seru, dan kuliner khas di dataran tinggi Jawa Timur yang
+                memukau.</p>
             <div class="wb-hero-search d-flex align-items-center">
                 <span class="material-icons ms-3" style="color:#94a3b8;">search</span>
                 <input type="text" class="form-control" placeholder="Mau pergi ke mana?" id="heroSearch" />
-                <a href="destination.html" class="btn btn-primary btn-pill">Cari</a>
+                <button type="button" class="btn btn-primary btn-pill" onclick="handleSearch()">Cari</button>
             </div>
             <div class="wb-hero-tags mt-4">
                 <span><span class="material-icons">park</span> Alam</span>
@@ -124,14 +129,17 @@
 
     <!-- Tentang Section -->
     <section class="py-5 bg-white position-relative overflow-hidden" id="about">
-        <div class="position-absolute" style="top:-100px;right:-100px;width:300px;height:300px;background:rgba(19,236,91,0.05);border-radius:50%;filter:blur(60px);"></div>
+        <div class="position-absolute"
+            style="top:-100px;right:-100px;width:300px;height:300px;background:rgba(19,236,91,0.05);border-radius:50%;filter:blur(60px);">
+        </div>
         <div class="container">
             <div class="row align-items-center g-4">
                 <div class="col-lg-6 order-2 order-lg-1 position-relative">
                     <div class="row g-3">
                         <div class="col-6">
                             <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvg2MPhDrJ4fnRM2E9UCv_MW2nksvd3hYrm0WRROl0oHk3REFdXo_UTBJ3JVcaMS7j7BHsaFl6W3Ao2ku5k9U4Al28FyMu00qj47M66y4nWNwpjVVLrJmNPSBd8GOnMomxs6B4QC-9W8YtcduBPi7XRGfmR7waO1cUGz2R6z_7IxXuJKumyhkyIS0Qu7GUiYI4rcMbvDre7YgIHCsQxFVXeKnZSchjkbotU1bdtQL6hbt9r1zF4ebQ3Th5fkESvnf7GtsY9_F03NuJ"
-                                alt="Kebun apel hijau di Batu" class="img-fluid wb-img-rounded shadow" style="margin-top:2rem;" loading="lazy" />
+                                alt="Kebun apel hijau di Batu" class="img-fluid wb-img-rounded shadow"
+                                style="margin-top:2rem;" loading="lazy" />
                         </div>
                         <div class="col-6">
                             <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuATMZEuqGDKAoKMU1cp9zFyZB0YMwjox5jUj5D5SLFGA_ictyEx3P_aMOLkJnNKpFQhnwIViXzbNbUH67GpAkCq8hOTgX_upxvfXjMDVlb156J7DFXsxyjEqqE477MMyfDWT2VXJtRqAYXEr7qqcKoGfgo-gVo5-rD4zY5kjQabvI2xTXTAq9MkEHEcTjwBp8cBw870F50mK-qw1WUEIOEr29KhjUGCGHYite3HvtzNhlGTK7NVpKLSGMB_ic5AC7XdMXwjhUZ1MsBa"
@@ -143,7 +151,9 @@
                             <span class="material-icons" style="color:#0eb545;">thermostat</span>
                         </div>
                         <div>
-                            <p class="mb-0" style="font-size:0.75rem;color:#64748b;font-weight:600;text-transform:uppercase;">Suhu Rata-rata</p>
+                            <p class="mb-0"
+                                style="font-size:0.75rem;color:#64748b;font-weight:600;text-transform:uppercase;">Suhu
+                                Rata-rata</p>
                             <p class="mb-0 fw-bold" style="font-size:1.25rem;">15°C - 24°C</p>
                         </div>
                     </div>
@@ -153,12 +163,16 @@
                     <h2 class="wb-section-title">Swiss Kecil di Jawa Timur</h2>
                     <p style="color:#64748b;font-size:1.05rem;line-height:1.8;">Terletak di dataran tinggi Jawa Timur,
                         Kota Batu adalah surga udara sejuk, pemandangan hijau, dan pertanian yang subur. Dulu menjadi
-                        tempat peristirahatan pejajah Belanda, kini telah berkembang menjadi kota wisata unggulan Indonesia.</p>
-                    <p style="color:#64748b;font-size:1.05rem;line-height:1.8;" class="mb-3">Baik Anda ingin memetik apel
+                        tempat peristirahatan pejajah Belanda, kini telah berkembang menjadi kota wisata unggulan
+                        Indonesia.</p>
+                    <p style="color:#64748b;font-size:1.05rem;line-height:1.8;" class="mb-3">Baik Anda ingin memetik
+                        apel
                         langsung dari pohon, menjelajahi museum kelas dunia, atau sekadar bersantai di villa pegunungan,
                         Batu menawarkan liburan tak terlupakan jauh dari hiruk pikuk kota.</p>
-                    <a href="about.html" class="fw-bold d-inline-flex align-items-center" style="color:var(--wb-primary);">
-                        Baca selengkapnya tentang kami <span class="material-icons ms-1" style="font-size:1.1rem;">arrow_forward</span>
+                    <a href="about.html" class="fw-bold d-inline-flex align-items-center"
+                        style="color:var(--wb-primary);">
+                        Baca selengkapnya tentang kami <span class="material-icons ms-1"
+                            style="font-size:1.1rem;">arrow_forward</span>
                     </a>
                 </div>
             </div>
@@ -182,13 +196,17 @@
                             <div class="card-img-wrapper">
                                 <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDs-OPYNO2H3MiD9bKkEjaqymZT0zrK9yh8BlkbJyVwyB99sBK3NUmI-dMjTwYcsgnuMEZPki5GiCcYiNJy_F6FYxTx1DQ48L3tzZtv8WLdBJgXI1IPP9er9ShUK3ENCFFEgY-y6W7VmgQjEZHq25FgjEbEyMXOoXpI7KuhAtWZdUDWS8ZqL4ailox2PXSOWoi7dtznl_kczDz1e04cY4ZN-SOShuWeXPT6QbMhT_I6xp4RSX3iEbQBkU-C9hXT-dWFH-a641QZ1VtI"
                                     alt="Taman bermain Jatim Park Batu" loading="lazy" />
-                                <div class="card-badge"><span class="material-icons" style="color:#facc15;font-size:0.9rem;">star</span> 4.8</div>
+                                <div class="card-badge"><span class="material-icons"
+                                        style="color:#facc15;font-size:0.9rem;">star</span> 4.8</div>
                             </div>
                             <div class="card-body">
-                                <div class="card-location"><span class="material-icons">location_on</span> Sisir, Batu</div>
+                                <div class="card-location"><span class="material-icons">location_on</span> Sisir, Batu
+                                </div>
                                 <h5 class="card-title">Jatim Park 1 & 2</h5>
-                                <p class="card-text">Taman edutainment ikonik yang menggabungkan pusat sains, kebun binatang, dan wahana seru untuk segala usia.</p>
-                                <span class="card-link">Lihat Detail <span class="material-icons" style="font-size:1rem;">arrow_forward</span></span>
+                                <p class="card-text">Taman edutainment ikonik yang menggabungkan pusat sains, kebun
+                                    binatang, dan wahana seru untuk segala usia.</p>
+                                <span class="card-link">Lihat Detail <span class="material-icons"
+                                        style="font-size:1rem;">arrow_forward</span></span>
                             </div>
                         </div>
                     </a>
@@ -200,13 +218,17 @@
                             <div class="card-img-wrapper">
                                 <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCkVqyq7zMF44sosBCX74p8CDmkIGoUevXR7YuxP6m1oCSAiycRUQrcUNVZWZMql7b-s_RSqjkpmET6dN6i-Wv771iexb7wtvXGJZVXbIObKu2jZU1cCMgNe-BmC5A-Z18IBBWgAC6GhYZh9aCPSwoktYN6-zXCVlbQ09Rz_iE8gCSNzLt6eltaomno7r8-at2MHXFhZ9SQhVJpF63m-_sRLGl0jGdYusOC2H6DPXjqoia9pFYBf4nVydBHqwJPFl4WyjEHGU0CQIf"
                                     alt="Mobil klasik di Museum Angkut Batu" loading="lazy" />
-                                <div class="card-badge"><span class="material-icons" style="color:#facc15;font-size:0.9rem;">star</span> 4.9</div>
+                                <div class="card-badge"><span class="material-icons"
+                                        style="color:#facc15;font-size:0.9rem;">star</span> 4.9</div>
                             </div>
                             <div class="card-body">
-                                <div class="card-location"><span class="material-icons">location_on</span> Ngaglik, Batu</div>
+                                <div class="card-location"><span class="material-icons">location_on</span> Ngaglik, Batu
+                                </div>
                                 <h5 class="card-title">Museum Angkut</h5>
-                                <p class="card-text">Museum transportasi pertama di Asia Tenggara dengan ratusan mobil klasik dan zona tematik yang memukau.</p>
-                                <span class="card-link">Lihat Detail <span class="material-icons" style="font-size:1rem;">arrow_forward</span></span>
+                                <p class="card-text">Museum transportasi pertama di Asia Tenggara dengan ratusan mobil
+                                    klasik dan zona tematik yang memukau.</p>
+                                <span class="card-link">Lihat Detail <span class="material-icons"
+                                        style="font-size:1rem;">arrow_forward</span></span>
                             </div>
                         </div>
                     </a>
@@ -218,13 +240,17 @@
                             <div class="card-img-wrapper">
                                 <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7N2MortapSJQB92GpOHPcW-LOGWcFBgMJAtViK76ieTXkAGPTliJBtAzbGg3bUGzlh_4GamEgkoEY0xJCV5X8bAZZsIN18YBopYX8Y8UnbnyenXI-ps87TxtsW1MGGYQ1p0AidO3OnbwpsNa9nTmF8m7za-foNyYi6MUekAJxj5eQ2o96dH9hA-gHNm4kGrVDPblDsR9KXqcvIjLQj53vmWGtRSsfA0S8CNK4wkDpAXBdQAXDGoU6Y_e8ps6_z18jo_eJyMFmBMal"
                                     alt="Air Terjun Coban Rondo Malang" loading="lazy" />
-                                <div class="card-badge"><span class="material-icons" style="color:#facc15;font-size:0.9rem;">star</span> 4.7</div>
+                                <div class="card-badge"><span class="material-icons"
+                                        style="color:#facc15;font-size:0.9rem;">star</span> 4.7</div>
                             </div>
                             <div class="card-body">
-                                <div class="card-location"><span class="material-icons">location_on</span> Pujon, Malang</div>
+                                <div class="card-location"><span class="material-icons">location_on</span> Pujon, Malang
+                                </div>
                                 <h5 class="card-title">Air Terjun Coban Rondo</h5>
-                                <p class="card-text">Air terjun legendaris setinggi 84 meter dikelilingi hutan pinus, sempurna untuk pecinta alam.</p>
-                                <span class="card-link">Lihat Detail <span class="material-icons" style="font-size:1rem;">arrow_forward</span></span>
+                                <p class="card-text">Air terjun legendaris setinggi 84 meter dikelilingi hutan pinus,
+                                    sempurna untuk pecinta alam.</p>
+                                <span class="card-link">Lihat Detail <span class="material-icons"
+                                        style="font-size:1rem;">arrow_forward</span></span>
                             </div>
                         </div>
                     </a>
@@ -261,9 +287,12 @@
                                 <span class="card-category badge-culinary">Kuliner</span>
                             </div>
                             <div class="card-body">
-                                <div class="blog-meta"><span>12 Okt 2023</span><span class="dot"></span><span>5 menit baca</span></div>
-                                <h5 class="card-title" style="color:var(--wb-text-dark);">Panduan Kuliner Alun-Alun Batu</h5>
-                                <p class="card-text">Jangan lewatkan Ketan Legenda dan jagung bakar legendaris sambil menikmati pemandangan kincir ria.</p>
+                                <div class="blog-meta"><span>12 Okt 2023</span><span class="dot"></span><span>5 menit
+                                        baca</span></div>
+                                <h5 class="card-title" style="color:var(--wb-text-dark);">Panduan Kuliner Alun-Alun Batu
+                                </h5>
+                                <p class="card-text">Jangan lewatkan Ketan Legenda dan jagung bakar legendaris sambil
+                                    menikmati pemandangan kincir ria.</p>
                                 <span class="card-link">Baca Artikel</span>
                             </div>
                         </article>
@@ -278,9 +307,12 @@
                                 <span class="card-category badge-stay">Penginapan</span>
                             </div>
                             <div class="card-body">
-                                <div class="blog-meta"><span>28 Sep 2023</span><span class="dot"></span><span>8 menit baca</span></div>
-                                <h5 class="card-title" style="color:var(--wb-text-dark);">Hotel Keluarga Terbaik 2024</h5>
-                                <p class="card-text">Kami rangkum 5 resort ramah anak terbaik di Batu dengan kolam renang dan suite keluarga.</p>
+                                <div class="blog-meta"><span>28 Sep 2023</span><span class="dot"></span><span>8 menit
+                                        baca</span></div>
+                                <h5 class="card-title" style="color:var(--wb-text-dark);">Hotel Keluarga Terbaik 2024
+                                </h5>
+                                <p class="card-text">Kami rangkum 5 resort ramah anak terbaik di Batu dengan kolam
+                                    renang dan suite keluarga.</p>
                                 <span class="card-link">Baca Artikel</span>
                             </div>
                         </article>
@@ -295,9 +327,12 @@
                                 <span class="card-category badge-activity">Aktivitas</span>
                             </div>
                             <div class="card-body">
-                                <div class="blog-meta"><span>15 Sep 2023</span><span class="dot"></span><span>4 menit baca</span></div>
-                                <h5 class="card-title" style="color:var(--wb-text-dark);">5 Kebun Petik Apel Terbaik</h5>
-                                <p class="card-text">Rasakan keseruan memetik buah langsung dari pohon di kebun agrowisata bersertifikat di Bumiaji.</p>
+                                <div class="blog-meta"><span>15 Sep 2023</span><span class="dot"></span><span>4 menit
+                                        baca</span></div>
+                                <h5 class="card-title" style="color:var(--wb-text-dark);">5 Kebun Petik Apel Terbaik
+                                </h5>
+                                <p class="card-text">Rasakan keseruan memetik buah langsung dari pohon di kebun
+                                    agrowisata bersertifikat di Bumiaji.</p>
                                 <span class="card-link">Baca Artikel</span>
                             </div>
                         </article>
@@ -318,37 +353,55 @@
             <div class="text-center mb-4">
                 <span class="wb-section-label">FAQ</span>
                 <h2 class="wb-section-title">Pertanyaan yang Sering Diajukan</h2>
-                <p style="color:#64748b;max-width:600px;" class="mx-auto">Jawaban atas pertanyaan umum tentang wisata di Kota Batu dan Malang.</p>
+                <p style="color:#64748b;max-width:600px;" class="mx-auto">Jawaban atas pertanyaan umum tentang wisata di
+                    Kota Batu dan Malang.</p>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="accordion wb-faq" id="homeFaq">
                         <div class="accordion-item">
                             <h2 class="accordion-header"><button class="accordion-button" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#hfaq1">Apa saja destinasi wisata terbaik di Batu Malang?</button></h2>
+                                    data-bs-toggle="collapse" data-bs-target="#hfaq1">Apa saja destinasi wisata terbaik
+                                    di Batu Malang?</button></h2>
                             <div id="hfaq1" class="accordion-collapse collapse show" data-bs-parent="#homeFaq">
-                                <div class="accordion-body">Destinasi terbaik meliputi Jatim Park 1, 2 & 3 (taman edutainment terbesar), Museum Angkut (museum transportasi pertama di Asia Tenggara), Air Terjun Coban Rondo, Paralayang Gunung Banyak, Selecta, dan Eco Green Park. Masing-masing menawarkan pengalaman unik mulai dari wahana seru hingga keindahan alam.</div>
+                                <div class="accordion-body">Destinasi terbaik meliputi Jatim Park 1, 2 & 3 (taman
+                                    edutainment terbesar), Museum Angkut (museum transportasi pertama di Asia Tenggara),
+                                    Air Terjun Coban Rondo, Paralayang Gunung Banyak, Selecta, dan Eco Green Park.
+                                    Masing-masing menawarkan pengalaman unik mulai dari wahana seru hingga keindahan
+                                    alam.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header"><button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#hfaq2">Kapan waktu terbaik untuk berkunjung ke Batu?</button></h2>
+                                    data-bs-toggle="collapse" data-bs-target="#hfaq2">Kapan waktu terbaik untuk
+                                    berkunjung ke Batu?</button></h2>
                             <div id="hfaq2" class="accordion-collapse collapse" data-bs-parent="#homeFaq">
-                                <div class="accordion-body">Batu menyenangkan sepanjang tahun berkat iklim sejuknya (15-24°C). Musim kemarau dari April hingga Oktober menawarkan hari paling cerah dan cocok untuk aktivitas luar ruangan. Hindari libur sekolah jika ingin suasana lebih tenang.</div>
+                                <div class="accordion-body">Batu menyenangkan sepanjang tahun berkat iklim sejuknya
+                                    (15-24°C). Musim kemarau dari April hingga Oktober menawarkan hari paling cerah dan
+                                    cocok untuk aktivitas luar ruangan. Hindari libur sekolah jika ingin suasana lebih
+                                    tenang.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header"><button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#hfaq3">Bagaimana cara menuju Kota Batu dari Surabaya?</button></h2>
+                                    data-bs-toggle="collapse" data-bs-target="#hfaq3">Bagaimana cara menuju Kota Batu
+                                    dari Surabaya?</button></h2>
                             <div id="hfaq3" class="accordion-collapse collapse" data-bs-parent="#homeFaq">
-                                <div class="accordion-body">Dari Bandara Juanda Surabaya, Anda bisa naik kereta ke Stasiun Malang (sekitar 2 jam) lalu lanjut naik mobil ke Batu (45 menit). Alternatifnya, sewa mobil langsung dari Surabaya dengan waktu tempuh 2-3 jam. Kami juga menyediakan layanan penjemputan dari berbagai kota.</div>
+                                <div class="accordion-body">Dari Bandara Juanda Surabaya, Anda bisa naik kereta ke
+                                    Stasiun Malang (sekitar 2 jam) lalu lanjut naik mobil ke Batu (45 menit).
+                                    Alternatifnya, sewa mobil langsung dari Surabaya dengan waktu tempuh 2-3 jam. Kami
+                                    juga menyediakan layanan penjemputan dari berbagai kota.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header"><button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#hfaq4">Berapa biaya wisata di Batu Malang?</button></h2>
+                                    data-bs-toggle="collapse" data-bs-target="#hfaq4">Berapa biaya wisata di Batu
+                                    Malang?</button></h2>
                             <div id="hfaq4" class="accordion-collapse collapse" data-bs-parent="#homeFaq">
-                                <div class="accordion-body">Tiket wahana populer mulai dari Rp 75.000 - Rp 120.000 per orang. Budget harian wisatawan bisa mulai dari Rp 300.000 termasuk makan dan transportasi lokal. Kami juga menawarkan paket wisata lengkap mulai dari Rp 350.000 per orang.</div>
+                                <div class="accordion-body">Tiket wahana populer mulai dari Rp 75.000 - Rp 120.000 per
+                                    orang. Budget harian wisatawan bisa mulai dari Rp 300.000 termasuk makan dan
+                                    transportasi lokal. Kami juga menawarkan paket wisata lengkap mulai dari Rp 350.000
+                                    per orang.</div>
                             </div>
                         </div>
                     </div>
@@ -363,14 +416,17 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 text-center text-lg-start mb-4 mb-lg-0">
                     <h2>Siap Menjelajahi Batu & Malang?</h2>
-                    <p class="mb-0">Rencanakan liburan impian Anda sekarang. Pilih paket wisata terbaik atau konsultasikan rencana perjalanan Anda dengan tim kami.</p>
+                    <p class="mb-0">Rencanakan liburan impian Anda sekarang. Pilih paket wisata terbaik atau
+                        konsultasikan rencana perjalanan Anda dengan tim kami.</p>
                 </div>
                 <div class="col-lg-5 text-center text-lg-end">
                     <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-end">
-                        <a href="package.html" class="btn btn-primary btn-pill px-4 py-2 fw-bold d-inline-flex align-items-center gap-2">
+                        <a href="package.html"
+                            class="btn btn-primary btn-pill px-4 py-2 fw-bold d-inline-flex align-items-center gap-2">
                             <span class="material-icons" style="font-size:1.2rem;">explore</span> Lihat Paket Wisata
                         </a>
-                        <a href="https://wa.me/6281234567890?text=Halo%20WisataBatu!%20Saya%20ingin%20konsultasi%20rencana%20wisata%20ke%20Batu%20Malang." target="_blank" rel="noopener"
+                        <a href="https://wa.me/6281234567890?text=Halo%20WisataBatu!%20Saya%20ingin%20konsultasi%20rencana%20wisata%20ke%20Batu%20Malang."
+                            target="_blank" rel="noopener"
                             class="btn btn-whatsapp btn-pill px-4 py-2 fw-bold d-inline-flex align-items-center gap-2">
                             <span class="material-icons" style="font-size:1.2rem;">chat</span> Hubungi via WhatsApp
                         </a>
@@ -386,9 +442,11 @@
             <div class="row g-4 mb-4">
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-brand"><span class="material-icons">landscape</span><span>WisataBatu</span></div>
-                    <p>Panduan lengkap Anda untuk menjelajahi keindahan Kota Batu dan Malang. Dari pegunungan hingga museum, kami bantu Anda merencanakan liburan sempurna.</p>
+                    <p>Panduan lengkap Anda untuk menjelajahi keindahan Kota Batu dan Malang. Dari pegunungan hingga
+                        museum, kami bantu Anda merencanakan liburan sempurna.</p>
                     <div class="footer-social">
-                        <a href="#" aria-label="Facebook"><span class="material-icons" style="font-size:1.1rem;">facebook</span></a>
+                        <a href="#" aria-label="Facebook"><span class="material-icons"
+                                style="font-size:1.1rem;">facebook</span></a>
                         <a href="#" aria-label="Instagram">IG</a>
                         <a href="#" aria-label="Twitter">TW</a>
                         <a href="#" aria-label="YouTube">YT</a>
@@ -419,14 +477,16 @@
                     <p>Berlangganan untuk info wisata terbaru dan penawaran spesial.</p>
                     <div class="footer-newsletter">
                         <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Alamat email Anda" aria-label="Email" />
+                            <input type="email" class="form-control" placeholder="Alamat email Anda"
+                                aria-label="Email" />
                             <button class="btn btn-primary" type="button">Langganan</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
-                <p class="mb-0" style="font-size:0.8rem;color:#64748b;">© 2024 WisataBatu Malang. Hak cipta dilindungi.</p>
+                <p class="mb-0" style="font-size:0.8rem;color:#64748b;">© 2024 WisataBatu Malang. Hak cipta dilindungi.
+                </p>
                 <div class="d-flex gap-4" style="font-size:0.8rem;">
                     <a href="privacy.html">Kebijakan Privasi</a>
                     <a href="terms.html">Syarat & Ketentuan</a>
@@ -437,8 +497,10 @@
 
     <!-- Tombol Melayang -->
     <div class="wb-floating-btns">
-        <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="btn-wa" aria-label="Hubungi via WhatsApp"><span class="material-icons">chat</span></a>
-        <a href="#hero" class="btn-top" aria-label="Kembali ke Atas"><span class="material-icons">arrow_upward</span></a>
+        <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="btn-wa"
+            aria-label="Hubungi via WhatsApp"><span class="material-icons">chat</span></a>
+        <a href="#hero" class="btn-top" aria-label="Kembali ke Atas"><span
+                class="material-icons">arrow_upward</span></a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -447,6 +509,22 @@
             const navbar = document.getElementById('mainNav');
             if (window.scrollY > 50) { navbar.style.boxShadow = '0 2px 16px rgba(0,0,0,0.08)'; }
             else { navbar.style.boxShadow = 'none'; }
+        });
+
+        function handleSearch() {
+            var searchInput = document.getElementById('heroSearch').value.trim();
+            if (!searchInput) {
+                window.location.href = 'destination.html';
+                return;
+            }
+            window.location.href = 'destination.html?search=' + encodeURIComponent(searchInput);
+        }
+
+        document.getElementById('heroSearch').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                handleSearch();
+            }
         });
     </script>
 </body>
